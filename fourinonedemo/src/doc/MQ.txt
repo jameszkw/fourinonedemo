@@ -1,0 +1,18 @@
+1.JMS标准规范两种经典消息服务模式：发送/接收、主题/订阅
+
+
+
+
+
+
+
+RPC
+http协议，通常形成“classname.methodname”形式。优点是跨语言跨平台，C端、S端有更大的独立性，缺点是不支持对象，无法在编译器检查错误，只能在运行期检查。
+Web Service
+http协议，Web Service提供的服务是基于web容器的
+RMI
+tcp/ip协议，优点是强类型，编译期可检查错误，缺点是只能基于JAVA语言，客户机与服务器紧耦合。
+JMS
+支持两种消息模型：Point-to-Point（P2P）和Publish/Subscribe（Pub/Sub）
+
+
